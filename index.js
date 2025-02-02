@@ -25,7 +25,7 @@ button.addEventListener('click', () => {
    let img = document.createElement("img");
    newpara.className = "note";
    newpara.setAttribute('contenteditable', 'true');
-   img.src = "delete.png";
+   img.src = "assets/delete.png";
    img.setAttribute("contenteditable", 'false');
    container.appendChild(newpara).appendChild(img);
 
